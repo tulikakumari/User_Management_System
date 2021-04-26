@@ -1,5 +1,5 @@
 const express = require('express');
-const route = express.Router();
+const route = express.Router(); // allows us to create different router in a seperate file
 const services = require('../services/render');
 const controller = require('../controller/controller');
 
